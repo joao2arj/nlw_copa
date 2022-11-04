@@ -1,3 +1,89 @@
+* { /*Seletor universal para zerar a margem e o padding de todos os elementos do código*/
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box; /*Código para sempre manter o tamanho constante das boxes em px*/
+}
+
+ul { /*Seletor para tirar o estilo de pontos das listas*/
+    list-style: none;
+}
+
 body {
-    background: black;
+    background-color: #121214;
+    background-image: url(./assets/bg.svg);
+    background-position-y: 55.6%;
+    background-position-x: center;
+}
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+
+#app { /*Seletor de ID*/
+    width: fit-content; /*Largura flexível de acordo com o conteúdo*/
+    margin: 52px auto;
+}
+
+header {
+    margin-bottom: 63px;
+}
+
+.card { /*Seletor de class*/
+    padding: 32px 23px;
+    text-align: center;
+
+    background: #1d1c19;
+    border-bottom: 2px solid #f7dd43;
+    border-radius: 6px;
+}
+
+.card h2 {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px 16px;
+    border: 1px solid #746615;
+    border-radius: 6px;
+
+    width: fit-content; /*faz com que a borda(box) da data se ajuste de acordo com o tamanho do texto em seu interior*/
+    margin-inline: auto;
+    margin-bottom: 53px;
+
+    color: #f7dd43;
+}
+
+.card h2 span {
+    color: #E1E1E6;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+.card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    width: 270px;
+}
+
+.card ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card ul li + li { /*comando para selecionar um li que contenha outro li anterior*/
+    padding-top: 24px;
+    border-top: 1px solid #323238;
+
+}
+
+.card ul li strong {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 125%;
+
+    color: #E1E1E6;
 }
