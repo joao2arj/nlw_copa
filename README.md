@@ -19,7 +19,7 @@ Projeto feito durante o evento Next Level Week promovido pela Rocketseat.
 
 <p align="center">
 Para acessar o projeto, 
-<a href="https://joao2arj.github.io/nlw_copa">clique aqui!
+<a href="https://joao2arj.github.io/nlw_copa" target="_blank">clique aqui!
 </a>
 </p>
 
