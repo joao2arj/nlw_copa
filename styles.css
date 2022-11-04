@@ -36,7 +36,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
+    padding-bottom: 20px;
    /*Ou
    background: #121214 var(--bg) no-repeat top center/cover;
    */ 
