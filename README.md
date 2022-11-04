@@ -17,6 +17,14 @@ Projeto feito durante o evento Next Level Week promovido pela Rocketseat.
   <img alt="preview_nlw_copa" src=".github/preview_nlw_copa.png" width="100%">
 </p>
 
+<p align="center">
+Para acessar o projeto, 
+<a href="https://joao2arj.github.io/nlw_copa">clique aqui!
+</a>
+</p>
+
+<br>
+
 ## 🚀 Tecnologias
 
 Foram utilizadas as seguintes tecnologias:
