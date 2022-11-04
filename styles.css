@@ -11,7 +11,7 @@ ul { /*Seletor para tirar o estilo de pontos das listas*/
 body {
     background-color: #121214;
     background-image: url(./assets/bg.svg);
-    background-position-y: 55.6%;
+    background-position-y: -715px;
     background-position-x: center;
 }
 body * {
@@ -25,6 +25,13 @@ body * {
 
 header {
     margin-bottom: 63px;
+    text-align: center;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .card { /*Seletor de class*/
